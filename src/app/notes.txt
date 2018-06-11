@@ -1,0 +1,9 @@
+// creating a service
+// calling the services function from the front end
+//creating an interface for album and tracks 
+    //eg what each entity is made up of
+    // eg tracks - trackName, trackNumber, trackLength
+
+//created tracklisting component
+//imported service and interface. importing the service lets us access functions defined in that service
+//updated the front end to load dynamic data
