@@ -10,7 +10,6 @@ export class ProductService {
   constructor(private _http: Http) {  }
 
   getAlbum (id: number) {
-    // rxjs needed for map function so we can map response as json
     return this._http.get(this._albumUrl).map((response) =>
     response.json());
   }
