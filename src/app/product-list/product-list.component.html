@@ -1,7 +1,8 @@
-<ul>
-  <li *ngFor="let product of products">
-    <a routerLink="/product/{{product.id}}" routerLinkActive="active">
-    {{product.albumName}}
-    </a>
+<h1>Favourite albums</h1>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let product of products">
+      <a routerLink="/product/{{product.id}}" routerLinkActive="active">
+      {{product.albumName}} <span class="label label-info">In{{product.artistName}}fo</span>
+      </a>
   </li>
 </ul>
