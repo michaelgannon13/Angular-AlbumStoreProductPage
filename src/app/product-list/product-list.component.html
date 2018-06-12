@@ -2,7 +2,8 @@
 <ul class="list-group">
   <li class="list-group-item" *ngFor="let product of products">
       <a routerLink="/product/{{product.id}}" routerLinkActive="active">
-      {{product.albumName}} <span class="label label-info">In{{product.artistName}}fo</span>
+        {{product.albumName}}
+        <span class="label label-info">{{product.artistName}}</span>
       </a>
   </li>
 </ul>
